@@ -1,6 +1,6 @@
 //var proxy = "https://cors-anywhere.herokuapp.com/";
 
-function fetchQuote() { fetch('http://api.quotable.io/random').then(response =>{
+function fetchQuote() { fetch('https://api.quotable.io/random').then(response =>{
     return response.json()
 }).then(data =>{
     console.log(data);
